@@ -94,7 +94,7 @@ function draw() {
       gameState = END;
     }
     //escreva uma condição para a pontuação aumentar
-    if(kangaroo.colide(shrubsGroup)){
+    if(kangaroo.collide(shrubsGroup)){
       score = score + 1;
       shrubsGroup.destroyEach();
     }
